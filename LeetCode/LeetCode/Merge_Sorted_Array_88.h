@@ -11,7 +11,7 @@
 @interface Merge_Sorted_Array_88 : NSObject
 
 /** OC实现 */
-+ (void)merge:(NSMutableArray *)arr1 :(NSMutableArray *)arr2;
++ (void)merge:(NSMutableArray <NSNumber *>*)arr1 :(NSMutableArray <NSNumber *>*)arr2;
 /** C实现 */
 + (void)mergeSortedArray;
 

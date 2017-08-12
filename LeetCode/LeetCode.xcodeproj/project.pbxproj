@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B0723DC1F3EBAC600AE32CE /* Merge_Sorted_Array_88.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723DB1F3EBAC600AE32CE /* Merge_Sorted_Array_88.m */; };
+		9B0723DF1F3EBF5D00AE32CE /* Two_Sum_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723DE1F3EBF5D00AE32CE /* Two_Sum_1.m */; };
 		9B559DFF1F3E98A5003B2DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B559DFE1F3E98A5003B2DED /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		9B0723DA1F3EBAC600AE32CE /* Merge_Sorted_Array_88.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merge_Sorted_Array_88.h; sourceTree = "<group>"; };
 		9B0723DB1F3EBAC600AE32CE /* Merge_Sorted_Array_88.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merge_Sorted_Array_88.m; sourceTree = "<group>"; };
+		9B0723DD1F3EBF5D00AE32CE /* Two_Sum_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Two_Sum_1.h; sourceTree = "<group>"; };
+		9B0723DE1F3EBF5D00AE32CE /* Two_Sum_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Two_Sum_1.m; sourceTree = "<group>"; };
 		9B559DFB1F3E98A5003B2DED /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B559DFE1F3E98A5003B2DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +74,8 @@
 			children = (
 				9B0723DA1F3EBAC600AE32CE /* Merge_Sorted_Array_88.h */,
 				9B0723DB1F3EBAC600AE32CE /* Merge_Sorted_Array_88.m */,
+				9B0723DD1F3EBF5D00AE32CE /* Two_Sum_1.h */,
+				9B0723DE1F3EBF5D00AE32CE /* Two_Sum_1.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			files = (
 				9B0723DC1F3EBAC600AE32CE /* Merge_Sorted_Array_88.m in Sources */,
 				9B559DFF1F3E98A5003B2DED /* main.m in Sources */,
+				9B0723DF1F3EBF5D00AE32CE /* Two_Sum_1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

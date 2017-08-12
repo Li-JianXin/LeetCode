@@ -17,17 +17,17 @@
 
 @implementation Merge_Sorted_Array_88
 
-+ (void)merge:(NSMutableArray *)arr1 :(NSMutableArray *)arr2 {
++ (void)merge:(NSMutableArray <NSNumber *>*)arr1 :(NSMutableArray <NSNumber *>*)arr2 {
     NSInteger i = arr1.count -1;
     NSInteger j = arr2.count - 1;
     NSInteger index = arr1.count + arr2.count - 1;
-    // 将数组1进行扩展，在空着的索引里填充Null
+    // 将数组1进行扩展，在空着的索引里填充0
     for (NSInteger i = arr1.count; i < index + 1; i++) {
-        [arr1 addObject:[NSNull null]];
+        [arr1 addObject:@0];
     }
     
     while (i >= 0 && j >= 0) {
-        if (arr1[i] > arr2[j]) {
+        if (arr1[i].integerValue > arr2[j].integerValue) {
             arr1[index] = arr1[i];
             i--;
         } else {
