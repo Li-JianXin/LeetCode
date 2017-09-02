@@ -15,6 +15,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        // 普通注释
         NSMutableArray *arr1 = @[@1,@4,@5,@7].mutableCopy;
         NSMutableArray *arr2 = @[@2,@5,@6,@10].mutableCopy;
         [Merge_Sorted_Array_88 merge:arr1 :arr2];;
